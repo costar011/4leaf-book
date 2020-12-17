@@ -1,4 +1,7 @@
 extends ../layouts/main.pug
 
 block content
-    h1 I'm BOOK
+    each data in bookList
+        h3 #{data.title}
+        h3 #{data.price}
+        hr

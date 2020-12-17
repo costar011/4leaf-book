@@ -19,6 +19,7 @@ connect(); // DB Connect
 app.set("view engine", "pug");
 
 app.get("/", globaRouter);
+app.get("/book", globaRouter);
 
 app.listen(PORT, () => {
   console.log(` ✅ ${PORT} Server Start`);
