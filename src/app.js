@@ -24,3 +24,6 @@ app.get("/book", globaRouter);
 app.listen(PORT, () => {
   console.log(` ✅ ${PORT} Server Start`);
 });
+
+// pug 에서 데이터 갖고올 때 each -> for each 인데 each 라고 쓴것이다. 그냥 포문.
+// each data in bookList : bookList 라는 아이를 data 안에 하나씩 넣는다.
